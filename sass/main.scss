@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import "variables";
+body {
+    font-family:$font;
+    padding: 0;
+    margin: 0;
+}
+@import'home/article-background';
+@import'home/article-div-form';
+@import'home/backgroundImage';
+@import'home/button';
+@import'home/Dont-have-an-account';
+@import'home/input';
+@import'home/parent-article';
+@import'home/Radio'

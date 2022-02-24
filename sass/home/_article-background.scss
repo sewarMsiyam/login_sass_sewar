@@ -1,0 +1,9 @@
+.article-background{
+    padding: 40px;
+    background-color: $color-white;
+    width:$width;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+}

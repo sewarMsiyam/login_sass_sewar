@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+body {
+  font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.article-background {
+  padding: 40px;
+  background-color: white;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.article_div_form {
+  text-align: start;
+}
+
+.background-img {
+  background-image: url("/images/image1.png");
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+.Login_Now {
+  padding: 18px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin: 15px 0px !important;
+  width: 100%;
+  background-color: #04C35C;
+}
+
+.sign_in {
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+  background-color: #2D3748;
+  width: 100%;
+  text-align: center;
+  border: none;
+}
+
+.Dont_have_an_account {
+  margin-top: 162px !important;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.Dont_have_an_account a {
+  color: #2B6CB0;
+}
+
+.p_Welcome_back, .Email, .Password {
+  margin: 0 !important;
+  font-size: "Nunito", sans-serif;
+}
+
+.Login {
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid darkgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.parent-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+}
+
+.circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.circle input {
+  height: 15px;
+  width: 15px;
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */

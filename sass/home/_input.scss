@@ -1,0 +1,23 @@
+
+
+.p_Welcome_back,.Email,.Password{
+        margin: 0!important;
+        font-size: $font;
+    }
+
+    
+    .Login{
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    } 
+
+
+input{
+    width: 350px;
+    height: 50px;
+    border-radius: $border-radius;
+    border: 1px solid $border-color ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  background-color: darkgray;
+  font-size: "Nunito", sans-serif; }
+
+div.parent-article {
+  display: flex;
+  font-family: "Nunito", sans-serif;
+  margin: 0px; }
+  div.parent-article .background-img {
+    width: 50%;
+    height: 899.82px; }
+    div.parent-article .background-img img {
+      width: 100%; }
+  div.parent-article article {
+    padding: 40px;
+    background-color: white;
+    width: 50%;
+    height: 899.82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important; }
+    div.parent-article article div {
+      text-align: start; }
+      div.parent-article article div p {
+        margin: 0 !important;
+        font-size: "Nunito", sans-serif; }
+      div.parent-article article div h2 {
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 20px; }
+      div.parent-article article div input {
+        width: 350px;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid darkgray;
+        margin-top: 10px;
+        margin-bottom: 10px; }
+      div.parent-article article div .circle {
+        display: flex;
+        justify-content: space-between; }
+        div.parent-article article div .circle input {
+          height: 15px;
+          width: 15px; }
+        div.parent-article article div .circle .Forgot-password {
+          padding-top: 10px; }
+      div.parent-article article div .Login-Now {
+        padding: 0px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        margin-top: 15px; }
+        div.parent-article article div .Login-Now input {
+          color: white;
+          margin: 0px !important;
+          width: 100%;
+          background-color: #04C35C; }
+      div.parent-article article div .sign-in {
+        border-radius: 10px;
+        color: white;
+        padding: 15px;
+        background-color: #2D3748;
+        margin-bottom: 162px !important;
+        margin-top: 15px !important;
+        text-align: center; }
+    div.parent-article article .Dont-have-an-account {
+      margin: 0 !important;
+      font-family: "Nunito", sans-serif;
+      font-size: 16px;
+      line-height: 19px; }
+      div.parent-article article .Dont-have-an-account a {
+        color: #2B6CB0; }
